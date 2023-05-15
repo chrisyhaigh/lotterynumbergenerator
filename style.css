@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+#ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 750px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1cm;
+}
+
+#ball p {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+button {
+    font-size: 1.474em;
+    margin: 2.2em;
+    padding: 0.5em;
+    width: 170px;
+}
