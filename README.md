@@ -1,6 +1,8 @@
 Lottery Number Generator
 ======
-This is a simple lottery number generator web application that generates 6 unique numbers between 1 and 59, using HTML, CSS, Bootstrap, and JavaScript.
+This is a simple lottery number generator web application that generates 6 unique numbers between 1 and 59(inclusive) in ascending order, using HTML, CSS, Bootstrap, and JavaScript.
+
+
 
 Usage
 ======
