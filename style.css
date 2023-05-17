@@ -21,7 +21,6 @@ body {
     text-align: center;
 }
 
-
 button {
     font-size: 1.474em;
     margin-bottom: 1em;
@@ -30,11 +29,43 @@ button {
     width: 170px;
 }
 
-
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 1200px) {
 
     .ball {
-        width: 35px;
-        height: 35px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+
+    .ball {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .ball {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .ball {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .ball {
+        padding: .82em;
+        width: 30px;
+        height: 30px;
     }
 }
