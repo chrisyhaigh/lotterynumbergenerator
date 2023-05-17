@@ -9,7 +9,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: black;
-    border-radius: 750px;
+    border-radius: 75px;
     border-style: solid;
     border-color: white;
     border-width: 0.1cm;
@@ -28,4 +28,13 @@ button {
     margin-top: 0.5em;
     padding: 0.4em;
     width: 170px;
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    .ball {
+        width: 35px;
+        height: 35px;
+    }
 }
