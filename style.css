@@ -1,6 +1,10 @@
 body {
-    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(resources/images/297996-space-Earth.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .ball {
     display: flex;
