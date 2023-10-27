@@ -14,6 +14,7 @@ body {
     text-align: center;
 }
 
+
 .ball {
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@ body {
     border-radius: 75px;
     border-style: solid;
     border-color: white;
-    border-width: 0.1cm;
+    border-width: 0.187em;
 }
 
 .ball p {
@@ -76,11 +77,12 @@ button {
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 375px) {
 
     .ball {
-        width: 45px;
-        height: 45px;
+        padding: .82em;
+        width: 30px;
+        height: 30px;
     }
 }
 
