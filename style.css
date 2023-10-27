@@ -1,14 +1,5 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: url(images/297996-space-Earth.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: black;
 }
 
 
@@ -74,11 +65,12 @@ button {
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 375px) {
 
     .ball {
-        width: 45px;
-        height: 45px;
+        padding: .82em;
+        width: 30px;
+        height: 30px;
     }
 }
 
